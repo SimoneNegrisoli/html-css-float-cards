@@ -31,18 +31,22 @@ body{
     padding: 10px;
 }
 
-
+main{
+    margin-top: 40px;
+}
 .box{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
 }
 
 .cards{
     background-color: var(--cards-bg);
     color: var(--card-text);
     float: left;
+    margin-top: 80px;
+    margin: 10px;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -53,14 +57,22 @@ body{
 }
 
 .img-profilo{
-    /* float: left; */
+    float: left;
+    width: 100px;
 }
 
 .description{
-    /* float: left; */
+    float: left;
     text-align: left;
+    padding: 10px;
+
 }
 
 .mail{
     color: var(--mail);
+}
+
+.description-text{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
