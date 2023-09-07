@@ -31,10 +31,15 @@ body{
     padding: 10px;
 }
 
+
+.box{
+    width: calc(100% / 3);
+}
+
 .cards{
     background-color: var(--cards-bg);
     color: var(--card-text);
-    width: calc(100% / 3);
+    float: left;
 }
 
 .clearfix{
@@ -43,12 +48,16 @@ body{
     clear: both;
 }
 
-.img-profilo{
+.push-left{
     float: left;
 }
 
+.img-profilo{
+    /* float: left; */
+}
+
 .description{
-    float: left;
+    /* float: left; */
     text-align: left;
 }
 
