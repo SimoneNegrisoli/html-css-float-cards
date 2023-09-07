@@ -2,7 +2,7 @@
     --title: #E5316F;
     --mail: #4DCCF2;
     --card-text: #FFFFFE;
-    --card-bg: #0F0E17;
+    --cards-bg: #0F0E17;
 }
 
 *{
@@ -29,4 +29,29 @@ body{
 .container > p{
     margin-top: 30px;
     padding: 10px;
+}
+
+.cards{
+    background-color: var(--cards-bg);
+    color: var(--card-text);
+    width: calc(100% / 3);
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-profilo{
+    float: left;
+}
+
+.description{
+    float: left;
+    text-align: left;
+}
+
+.mail{
+    color: var(--mail);
 }
